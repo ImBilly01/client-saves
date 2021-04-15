@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Interface</title>
+</head>
+<body>
+
+<form>
+
+	<input type="text" name="username" placeholder="put a name" id="user"> <br> <br>
+	<input type="button" name="save" value="save" onclick="yourName()">
+
+</form>
+
+	<script type="text/javascript">
+	var name;
+	var name2;
+
+
+	function yourName() {
+
+			if (user.value !== name || user.value !== name2) {
+				name = user.value;
+				name2 = user.value;
+				alert("your name has been saved");
+
+			} else {
+
+				alert("the name exists try a different one");
+
+			}
+	}
+
+	</script>
+
+</body>
+</html>
